@@ -1,0 +1,93 @@
+{
+    "EC-DMC": {
+        "type": "Cessna 152",
+        "emptyWeight": 545,
+        "emptyCG": 0.799,
+        "fuelConversionFactor": 0.72,
+        "fuelArmDefault": 1.07,
+        "fuelArm46_5L": 1.22,
+        "pilotArm": 0.99,
+        "baggageAreaArm": 1.63,
+        "tailconeBaggageAreaArm": 2.13,
+        "maxWeight": 760,
+        "halfFuelLiters": 46.5,
+        "threeQuartersFuelLiters": 70,
+        "fullFuelLiters": 93,
+        "halfFuelDescription": "Fuel tank 1/2",
+        "threeQuartersFuelDescription": "Fuel tank 3/4",
+        "fullFuelDescription": "Fuel tank 4/4",
+        "image": "ecdmc.jpg",
+        "seats": [],  
+        "envelopes": [
+            {
+                "label": "Normal Envelope",
+                "points": [
+                    { "x": 380, "y": 500 },
+                    { "x": 475, "y": 600 },
+                    { "x": 625, "y": 750 },
+                    { "x": 700, "y": 750 },
+                    { "x": 462, "y": 500 }
+                ]
+            }
+        ],
+        "graphLimits": {
+            "xMin": 350,
+            "xMax": 760,
+            "yMin": 500,
+            "yMax": 800
+        }
+    },
+    "EC-JSN": {
+        "type": "Cessna 172",
+        "emptyWeight": 775.9,
+        "emptyCG": 1.05,
+        "fuelConversionFactor": 0.72,
+        "fuelArmDefault": 1.22,
+        "fuelArm46_5L": 1.22,
+        "pilotArm": 0.94,
+        "baggageAreaArm": 2.41,
+        "tailconeBaggageAreaArm": 3.12,
+        "maxWeight": 1111,
+        "halfFuelLiters": 100,
+        "threeQuartersFuelLiters": 133,
+        "fullFuelLiters": 201,
+        "halfFuelDescription": "1/2",
+        "threeQuartersFuelDescription": "FILLER CAP",
+        "fullFuelDescription": "4/4",
+        "image": "ecjsn.jpg",
+        "seats": [
+            {"label": "Rear Seat", "arm": 1.32}
+        ],
+        "envelopes": [
+            {
+                "label": "Normal Category",
+                "points": [
+                    { "x": 600, "y": 680 },
+                    { "x": 775, "y": 885 },
+                    { "x": 1100, "y": 1110 },
+                    { "x": 1300, "y": 1110 },
+                    { "x": 800, "y": 680 }
+                ]
+            },
+            {
+                "label": "Utility Category",
+                "points": [
+                    { "x": 600, "y": 680 },
+                    { "x": 775, "y": 885 },
+                    { "x": 875, "y": 950 },
+                    { "x": 990, "y": 950 },
+                    { "x": 690, "y": 680 }
+                ]
+            }
+        ],
+        "graphLimits": {
+            "xMin": 580,
+            "xMax": 1500,
+            "yMin": 680,
+            "yMax": 1180
+        }
+    }
+}
+
+
+
